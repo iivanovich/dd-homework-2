@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f8;
+  color: #22262e;
+}
+
+h1 {
+  color: #1c2b5e;
+  margin-top: 0;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ccd3dd;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 24px auto;
+  max-width: 560px;
+}
+
+.event-info {
+  margin: 4px 0;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #2f6fdb;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-field {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#service-form {
+  margin-top: 24px;
+  padding: 16px;
+  background-color: #f8fafc;
+  border: 1px solid #ccd3dd;
+}
+
+.error {
+  color: #c02626;
+  margin: 12px 0;
+}
+
+#result {
+  margin: 12px 0;
+  padding: 12px;
+  background-color: #eef6ee;
+  border: 1px solid #9ec99e;
+}
+
+#report-json {
+  padding: 12px;
+  background-color: #f6f6f6;
+  border: 1px solid #ccd3dd;
+  white-space: pre-wrap;
+}
